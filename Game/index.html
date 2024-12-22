@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Hat Boy</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="alert.css">
+
+
+<body onkeyup="controller(event)" id="background">
+
+    <div id="score"></div>
+    <div id="high_score"></div>
+    <img id="boy" src="images/run1.png">
+
+    <div id="alert" class="hide">
+        <div class="container-inner">
+            <div class="content">
+                <p id="alertScore"></p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="restart" id="restart" onclick="restart()">Restart</button>
+                <button type="button" class="quit" id="quit" onclick="quit()">Quit</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="input">
+        <div class="container-inner">
+            <div class="content">
+                <p>Enter Your Name</p><br>
+                <input  type="text" id="nameInput">
+            </div>
+            <div class="buttons">
+                <button type="button" class="start" id="start" onclick="start()">Start</button>
+                <button type="button" class="clear" id="clear" onclick="cleartxt()">Clear</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

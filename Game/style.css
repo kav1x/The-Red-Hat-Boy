@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Skranji&display=swap");
+
+* {
+    font-family: "Skranji", cursive;
+}
+
+#background {
+
+    background-image: url("images/background.png");
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.hide {
+    display: none;
+}
+
+#boy {
+    height: 200px;
+    margin-top: 440px;
+    position: absolute;
+}
+
+.flame {
+    height: 100px;
+    position: absolute;
+    margin-top: 540px;
+
+}
+
+#score {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fde8d4cf;
+    margin-top: 45px;
+    margin-left: 80px;
+    position: absolute;
+}
+
+#high_score {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fde8d4cf;
+    margin-top: 45px;
+    margin-left: 65rem;
+    position: absolute;
+}
